@@ -1,6 +1,8 @@
 /** The app's own drawings for story cards and exhibits. Clearly illustrations, never fake photos. */
 import type { ReactElement } from 'react';
 import { Okro } from './Okro';
+import { mapScenes } from './mapScenes';
+import { paintedScenes } from './paintedScenes';
 import {
   Amphora, Animal, Arrow, Axe, C, Coin, Column, Crown, Dot, Dragon, Eagle, Fire, Frame, Ground, Hills, Jar, Label,
   MapBase, Mound, Mountains, Person, Ram, RoundHouse, Scroll, Sea, Ship, StoneWall, Sun, Tree, Wheat,
@@ -629,12 +631,14 @@ export const landmarks: Record<string, () => ReactElement> = {
   scales: () => <g><line x1="0" y1="-18" x2="0" y2="18" stroke={C.ink} strokeWidth="3" /><line x1="-20" y1="-10" x2="20" y2="-14" stroke={C.ink} strokeWidth="3" /><circle cx="-20" cy="0" r="7" fill={C.gold} /><circle cx="20" cy="-4" r="7" fill={C.gold} /></g>,
 };
 
+const allScenes: Record<string, () => ReactElement> = { ...scenes, ...mapScenes, ...paintedScenes };
+
 export function Scene({ name }: { name: string }) {
-  const S = scenes[name];
+  const S = allScenes[name];
   if (S) return <S />;
   return <Frame bg="parchment"><OkroIn pose="think" /></Frame>;
 }
 
-export const sceneNames = Object.keys(scenes);
+export const sceneNames = Object.keys(allScenes);
 // Keep the kit's Tree/Sea in the bundle checks quiet if a scene stops using them.
 void Tree; void Sea; void StoneWall; void Coin; void Amphora;

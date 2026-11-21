@@ -1,5 +1,5 @@
 import { stations, testItemIds } from '../content';
-import { landmarks } from '../art/scenes';
+import { Landmark } from './Landmark';
 import { Okro } from '../art/Okro';
 import { daysToTest } from '../engine/dates';
 import { stars, stationDone, type Mission } from '../engine/mission';
@@ -74,12 +74,11 @@ export function Home({ saved, day, mission, onMission, onStation, muted, onMute 
           const st = stars(saved, s.id);
           const done = st === 4;
           const isNext = next?.id === s.id;
-          const L = landmarks[s.landmark];
           return (
             <button key={s.id} className={`stop ${done ? 'done' : ''} ${isNext ? 'next' : ''} ${i % 2 ? 'right' : 'left'}`}
               style={{ top: 40 + i * GAP - 36, left: `${xOf(i)}%` }} onClick={() => onStation(s.id)}>
               <span className="stop-badge">
-                <svg viewBox="-30 -30 60 60" width="56" height="56">{L ? <L /> : null}</svg>
+                <Landmark name={s.landmark} size={64} />
                 {s.bonus && <span className="bonus">bonus</span>}
               </span>
               <span className="stop-text">

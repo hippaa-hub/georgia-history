@@ -1,5 +1,5 @@
 import type { Station } from '../content/types';
-import { landmarks } from '../art/scenes';
+import { Landmark } from './Landmark';
 import { Pic } from './Pic';
 import { TopBar } from './Runner';
 import type { Saved, Step } from '../storage/db';
@@ -15,14 +15,13 @@ const STEP_INFO: { id: Step; name: string; icon: string; what: (s: Station) => s
 export function StationView({ station, saved, onStep, onExit }: { station: Station; saved: Saved; onStep: (s: Step) => void; onExit: () => void }) {
   const done = saved.steps[station.id] ?? {};
   const next = nextStep(saved, station.id);
-  const L = landmarks[station.landmark];
   return (
     <div className="screen station">
       <TopBar title={`Station ${station.order}`} onExit={onExit} />
       <div className="station-hero">
         <Pic pic={station.story[0].pic} credit={false} className="hero-pic" />
         <div className="hero-text">
-          <svg viewBox="-30 -30 60 60" width="44" height="44">{L ? <L /> : null}</svg>
+          <Landmark name={station.landmark} size={52} />
           <div>
             <h1>{station.title}</h1>
             <p>{station.era}</p>

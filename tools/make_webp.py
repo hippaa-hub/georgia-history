@@ -10,7 +10,7 @@ total = 0
 for p in sorted(src.glob("*.png") if False else [q for q in src.glob("*.png") if not q.stem.startswith("_")]):
     out = dst / ("art-" + p.stem + ".webp")
     im = Image.open(p).convert("RGB")
-    im.thumbnail((960, 960))
+    im.thumbnail((256, 256) if p.stem.startswith("icon-") else (960, 960))
     im.save(out, "WEBP", quality=72, method=6)
     total += out.stat().st_size
     print(f"{out.name}  {out.stat().st_size // 1024} KB")
