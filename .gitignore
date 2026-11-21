@@ -1,0 +1,8 @@
+node_modules
+dist
+dev-dist
+.DS_Store
+
+# Private notes stay on this Mac
+GEORGIA_HISTORY_APP.md
+tools/raw/
