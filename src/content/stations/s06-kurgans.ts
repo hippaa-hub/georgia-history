@@ -58,9 +58,9 @@ export const station: Station = {
     artifact: 'ananauri-wagon',
     see: 'Inside Ananauri Kurgan No. 3. Tap what the archaeologists found.',
     hotspots: [
-      { x: 50, y: 55, label: 'A rare wooden wagon with carvings' },
-      { x: 22, y: 78, label: 'Pottery' },
-      { x: 80, y: 75, label: 'Wooden furniture' },
+      { x: 50, y: 40, label: 'A rare wooden wagon with carvings' },
+      { x: 12, y: 75, label: 'Pottery' },
+      { x: 9, y: 34, label: 'Wooden furniture' },
     ],
     items: [
       choice('s06-l1', 'THINK: What was the wagon maybe for?', ['Carrying the dead, or the journey to the afterlife', 'Selling wine to the Greeks', 'Carrying Roman soldiers', 'Playing games'],

@@ -47,11 +47,11 @@ export const station: Station = {
   ],
   look: {
     artifact: 'gold-cloak',
-    see: 'A cloak embroidered with gold, like the ones Pharasmanes sent (a drawing). Tap the details.',
+    see: 'A cloak embroidered with gold, like the ones Pharasmanes sent (an illustration). Tap the details.',
     hotspots: [
-      { x: 50, y: 40, label: 'Gold thread embroidery' },
-      { x: 25, y: 70, label: 'A rich gift between kings' },
-      { x: 75, y: 70, label: 'Hadrian used cloaks like these to mock the gift' },
+      { x: 40, y: 55, label: 'Gold thread embroidery' },
+      { x: 65, y: 70, label: 'A rich gift between kings' },
+      { x: 20, y: 85, label: 'Hadrian used cloaks like these to mock the gift' },
     ],
     items: [
       choice('s12-l1', 'THINK: What did Hadrian send to Pharasmanes?', ['Rich gifts, including an elephant', 'An army', 'A golden fleece', 'Nothing'],

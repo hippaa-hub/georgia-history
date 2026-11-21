@@ -58,9 +58,9 @@ export const station: Station = {
     artifact: 'flax-fibres',
     see: 'These are flax fibres seen under a microscope. Tap what you notice.',
     hotspots: [
-      { x: 30, y: 40, label: 'A twisted fibre' },
-      { x: 65, y: 35, label: 'A fibre dyed a colour' },
-      { x: 50, y: 75, label: 'Tiny: we need a microscope to see them' },
+      { x: 72, y: 50, label: 'A twisted fibre' },
+      { x: 55, y: 22, label: 'A fibre dyed a colour' },
+      { x: 10, y: 85, label: 'The edge of the microscope: the fibres are tiny' },
     ],
     items: [
       choice('s03-l1', 'THINK: What could people make with flax fibres?', ['Thread, clothes, cords, bags or baskets', 'Bronze axes', 'Clay pots', 'Coins'],

@@ -21,7 +21,7 @@ export function MuseumLabel({ id }: { id: string }) {
       {credit ? (
         <p className="credit">Photo: {credit.author}, {credit.licence}, <a href={credit.source} target="_blank" rel="noreferrer">Wikimedia Commons</a></p>
       ) : (
-        <p className="credit">Drawing made for this app (not a photo).</p>
+        <p className="credit">An illustration made for this app, not a photo of the real object.</p>
       )}
     </div>
   );
@@ -64,7 +64,7 @@ export function Credits({ onExit }: { onExit: () => void }) {
   return (
     <div className="screen">
       <TopBar title="Photo credits" onExit={onExit} />
-      <p className="muted">Photos come from Wikimedia Commons under free licences. Everything else is drawn for this app.</p>
+      <p className="muted">Photos come from Wikimedia Commons under free licences. The painted story pictures are illustrations made with AI for this app; the maps, diagrams and Okro are drawn for this app.</p>
       <ul className="credits">
         {list.map((c) => (
           <li key={c.file}><b>{c.title}</b><br />{c.author} · {c.licence} · <a href={c.source} target="_blank" rel="noreferrer">source</a></li>
