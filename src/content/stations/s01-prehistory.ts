@@ -56,16 +56,16 @@ export const station: Station = {
   ],
   look: {
     artifact: 'dig-trench',
-    see: 'This is a dig trench, cut down through the soil. Tap the three things the archaeologist found.',
+    see: 'A dig trench, cut down through the soil layers. Look for pot A and pot B. Tap the three things the archaeologist found.',
     hotspots: [
-      { x: 30, y: 30, label: 'Pottery B, in the top layer' },
-      { x: 62, y: 78, label: 'Pottery A, in the bottom layer' },
-      { x: 78, y: 70, label: 'Charcoal from an old fire, next to pottery A' },
+      { x: 68, y: 30, label: 'Pot B, in the top layer' },
+      { x: 28, y: 68, label: 'Pot A, broken, in the bottom layer' },
+      { x: 50, y: 82, label: 'Charcoal from an old fire, next to pot A' },
     ],
     items: [
-      choice('s01-l1', 'THINK: Which pottery is older?', ['Pottery A, in the bottom layer', 'Pottery B, in the top layer', 'They are the same age', 'We cannot say anything'],
-        'Deeper layers are usually older (stratigraphy), so pottery A is older than pottery B.'),
-      choice('s01-l2', 'THINK: What could radiocarbon dating measure here?', ['The charcoal next to pottery A', 'The clay of pottery A', 'The clay of pottery B', 'The soil itself'],
+      choice('s01-l1', 'THINK: Which pot is older, A or B?', ['Pot A, in the bottom layer', 'Pot B, in the top layer', 'They are the same age', 'We cannot say anything'],
+        'Deeper layers are usually older (stratigraphy), so pot A is older than pot B.'),
+      choice('s01-l2', 'THINK: What could radiocarbon dating measure here?', ['The charcoal next to pot A', 'The clay of pot A', 'The clay of pot B', 'The soil itself'],
         'Radiocarbon dates once-living remains, like charcoal. It cannot date the pottery itself.'),
       choice('s01-l3', 'WONDER: What can this trench NOT tell us?', ['What the people believed or felt', 'Which layer is older', 'That people used fire', 'That people made pottery'],
         'Physical evidence is reliable, but it cannot tell us what people believed or felt.'),

@@ -21,7 +21,7 @@
  },
  {
   "id": "layers",
-  "prompt": "A cross-section of the ground showing four clear horizontal soil layers, lighter on top and darker at the bottom. A newer clay pot sits in the top layer; an older broken clay pot sits in the bottom layer with small black pieces of charcoal from an old fire next to it."
+  "prompt": "A big cross-section of the ground filling the whole picture, like a cake: four clear horizontal soil layers, light sandy on top and dark brown at the bottom. ONE whole clay pot sits in the top layer on the RIGHT side. ONE older broken clay pot sits in the bottom layer on the LEFT side, with small black pieces of charcoal from an old fire right next to it. Only a thin strip of grass and sky at the very top. No people, no buildings."
  },
  {
   "id": "five-skulls",
@@ -206,5 +206,139 @@
  {
   "id": "scales",
   "prompt": "A large golden balance scale: on one pan a Roman golden eagle, on the other a Persian crown, and a small mountain kingdom with a fortress sitting on the beam in the middle. Symbolic."
+ },
+ {
+  "id": "casting-mine",
+  "prompt": "Bronze Age miners digging into a mountain rock face with stone hammers and antler picks, chunks of rock with green copper ore in baskets. Close, simple composition."
+ },
+ {
+  "id": "casting-smelt",
+  "prompt": "A Bronze Age metalworker heating copper ore in a small clay furnace, a helper pumping leather bellows, glowing orange metal melting inside a small clay crucible. Close, simple composition."
+ },
+ {
+  "id": "casting-cast",
+  "prompt": "A Bronze Age craftsman pouring glowing liquid bronze from a small clay crucible into an open stone mould shaped like an axe. Close, simple composition."
+ },
+ {
+  "id": "casting-finish",
+  "prompt": "A Bronze Age craftsman hammering and sharpening a shiny new bronze axe head on a stone anvil, engraving a small animal pattern on it. Close, simple composition."
+ },
+ {
+  "id": "wine-dig",
+  "prompt": "Modern archaeologists on a low grassy hill in a plain carefully digging up broken pieces of very large ancient clay jars. Close, simple composition."
+ },
+ {
+  "id": "wine-test",
+  "prompt": "A modern scientist in a laboratory with gloves scraping dark residue from inside a piece of ancient pottery into a small glass dish, a microscope beside her. Close, simple composition."
+ },
+ {
+  "id": "wine-acid",
+  "prompt": "A bunch of purple grapes next to a small laboratory glass dish holding tiny white crystals, on a clean lab bench. Shows that the chemical comes from grapes. Close, simple composition."
+ },
+ {
+  "id": "wine-made",
+  "prompt": "Neolithic villagers about 8,000 years ago pouring grape juice into a very large clay jar partly buried in the ground, baskets of grapes beside them, small round mud-brick houses behind. Close, simple composition."
+ },
+ {
+  "id": "pyr-chiefs",
+  "prompt": "A Bronze Age chief with gold jewellery and a gold cup, sitting proudly with herds of animals and fields behind him. Close, simple composition."
+ },
+ {
+  "id": "pyr-warriors",
+  "prompt": "Bronze Age warriors with bronze spears and a skilled craftsman making a bronze axe beside them. Close, simple composition."
+ },
+ {
+  "id": "pyr-farmers",
+  "prompt": "Bronze Age farmers working in a field and herders with sheep and cattle on a hillside. Close, simple composition."
+ },
+ {
+  "id": "bg-portal",
+  "prompt": "A magical swirling golden time portal in a deep blue starry night sky, faint glowing ancient things floating around its edge (a clay jar, a bronze axe, a little ship, a crown). The centre of the portal is empty and glowing softly."
+ },
+ {
+  "id": "bg-meadow",
+  "prompt": "A sunny green mountain meadow in the Caucasus with wild flowers and snowy peaks far behind. The middle foreground is empty grass. No people, no animals, no buildings."
+ },
+ {
+  "id": "bg-study",
+  "prompt": "A cosy explorer's desk seen from the front: an old parchment map, rolled scrolls, a magnifying glass, a small clay pot and a candle, warm light. The middle of the desk is clear and empty. No people."
+ },
+ {
+  "id": "icon-layers",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a block of earth cut to show coloured soil layers, with a tiny clay pot in the bottom layer.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-skull",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: an ancient early-human skull, cream coloured like old bone.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-cave",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: the entrance of a limestone cave with a small campfire inside.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-jar",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a large ancient clay jar with raised bunches of grapes on its shoulder.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-axe",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a shiny bronze axe on a wooden handle.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-kurgan",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a round grassy burial mound.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-rock-town",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a cliff with rooms and doorways carved into the rock.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-ship",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: an ancient Greek trading ship with one square sail.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-persian",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a shallow silver bowl decorated with petals.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-crown",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: an ancient golden crown with a red stone.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-eagle",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a golden Roman eagle standard.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-elephant",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a friendly grey elephant wearing a red and gold blanket.",
+  "w": 1024,
+  "h": 1024
+ },
+ {
+  "id": "icon-scales",
+  "prompt": "A single small icon-like painting centred on a plain warm cream background with lots of empty space around it, no scene, no people: a golden balance scale, one pan with a small eagle and the other with a small crown.",
+  "w": 1024,
+  "h": 1024
  }
 ]

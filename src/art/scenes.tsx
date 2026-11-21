@@ -93,14 +93,15 @@ const scenes: Record<string, () => ReactElement> = {
     </Frame>
   ),
   trench: () => (
-    <Frame>
-      <Layers />
-      <Jar x={120} y={100} s={0.5} color="#d08a4e" />
-      <Label x={150} y={80} size={13}>B</Label>
-      <Jar x={250} y={250} s={0.5} />
-      <Label x={280} y={220} size={13}>A</Label>
-      <g transform="translate(312 182)">{[0, 10, 20].map((d) => <rect key={d} x={d} y={d % 7} width="9" height="6" fill="#222" />)}</g>
-    </Frame>
+    <svg viewBox="0 0 1536 1024" className="art" role="img" aria-label="A dig trench: pot B in the top layer, pot A in the bottom layer" style={{ aspectRatio: '3 / 2' }}>
+      <image href="./img/art-layers.webp" width="1536" height="1024" />
+      {([['B', 1418, 175], ['A', 95, 690]] as const).map(([t, x, y]) => (
+        <g key={t}>
+          <circle cx={x} cy={y} r="62" fill="#fff" stroke={C.ink} strokeWidth="8" />
+          <text x={x} y={y + 30} textAnchor="middle" fontSize="88" fontWeight="900" fill={C.ink} fontFamily="Nunito, sans-serif">{t}</text>
+        </g>
+      ))}
+    </svg>
   ),
   people: () => (
     <Frame>
