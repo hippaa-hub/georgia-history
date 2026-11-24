@@ -35,7 +35,7 @@ export const station: Station = {
     },
     {
       title: 'Armazi falls',
-      text: 'Spring 65 BC: Pompey took Armaztsikhe. Artag burned the bridge over the Mtkvari and retreated. The Romans won at a river. Artag sent his children as hostages.',
+      text: 'Spring 65 BC: Pompey took Armaztsikhe. Artag burned the bridge over the Mtkvari and retreated. The Romans won at a river. Artag sent his children as hostages. Stone ruins called "Pompey\'s Bridge" still stand near Mtskheta.',
       pic: photo('pompey-bridge'),
     },
     {
@@ -68,9 +68,9 @@ export const station: Station = {
     artifact: 'stele',
     see: 'The Stele of Vespasian. Look before you read! Tap the details.',
     hotspots: [
-      { x: 50, y: 12, label: 'The top is broken off' },
-      { x: 50, y: 50, label: 'Letters carved in stone: Greek, not Latin' },
-      { x: 50, y: 88, label: 'A stone slab: a stele' },
+      { x: 62, y: 7, label: 'The top is broken off' },
+      { x: 52, y: 50, label: 'Letters carved in stone: Greek, not Latin' },
+      { x: 86, y: 86, label: 'A stone slab: a stele' },
     ],
     items: [
       choice('s11-l1', 'THINK: What does the Stele of Vespasian prove?', ['The alliance between Kartli and Rome', 'That Persia ruled Kartli', 'That Jason was real', 'That Kartli was a Roman province'],

@@ -58,9 +58,9 @@ export const station: Station = {
     artifact: 'dmanisi-skull',
     see: 'Look first, then read. Tap the parts of the skull.',
     hotspots: [
-      { x: 50, y: 30, label: 'The top of the skull: a small brain case' },
-      { x: 38, y: 50, label: 'The eye sockets, under a heavy brow' },
-      { x: 52, y: 78, label: 'The jaw and teeth' },
+      { x: 50, y: 20, label: 'The top of the skull: a small brain case' },
+      { x: 30, y: 52, label: 'The eye sockets, under a heavy brow' },
+      { x: 54, y: 86, label: 'The jaw and teeth' },
     ],
     items: [
       choice('s02-l1', 'THINK: Why is this skull so important?', ['It belongs to the oldest early humans found outside Africa', 'It is the oldest skull in Africa', 'It belonged to a king of Kartli', 'It shows the first farmers'],
